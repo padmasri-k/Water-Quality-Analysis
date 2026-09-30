@@ -1,0 +1,106 @@
+# Water Quality Data Analysis System
+
+## 📌 Project Overview
+
+The **Water Quality Data Analysis System** is a data analysis project developed to study water-quality observations from different sampling locations.
+
+The project uses Python and data-analysis techniques to clean, preprocess, analyze, and visualize water-quality data.
+
+The analysis focuses on important water-quality parameters such as:
+
+- pH
+- Turbidity
+- Dissolved Oxygen (DO)
+- Total Dissolved Solids (TDS)
+- Water Quality Index (WQI)
+
+The project also analyzes water quality across different sampling locations and water-quality classifications.
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- To analyze water-quality data collected from different sampling locations.
+- To study important water-quality parameters such as pH, turbidity, DO, and TDS.
+- To clean and preprocess the dataset.
+- To handle missing values and duplicate records.
+- To identify potential outliers using Box Plot and IQR methods.
+- To compare water-quality conditions across different locations.
+- To identify patterns and relationships among important water-quality parameters.
+- To create meaningful visualizations.
+- To analyze water-quality classification and WQI.
+- To provide a foundation for future water-quality prediction using machine-learning techniques.
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+- Jupyter Notebook
+
+---
+
+## 📊 Dataset
+
+### Dataset Source
+
+**PANGAEA – Data Publisher for Earth & Environmental Science**
+
+### Dataset
+
+Water-quality observations from the **Yucatán Peninsula, Mexico**.
+
+The original dataset was available in `.tab` (tab-delimited) format.
+
+The dataset was converted into CSV format and then loaded into Google Colab using Pandas.
+
+### Dataset Information
+
+- **Observations:** 103
+- **Attributes:** 21
+- **Sampling locations:** 12
+- Contains both numerical and categorical attributes.
+
+The dataset includes important water-quality measurements along with sampling-site information, Water Quality Index (WQI), and Water Quality classification.
+
+Additional parameters include temperature, conductivity, TSS, BOD, TN, and TP.
+
+---
+
+## 🔄 Project Workflow
+
+```text
+Collect Water Quality Dataset
+            ↓
+Load Dataset using Pandas
+            ↓
+Explore Dataset
+            ↓
+Check Missing Values
+            ↓
+Handle Missing Values
+            ↓
+Check Duplicate Records
+            ↓
+Check Potential Outliers using IQR
+            ↓
+Prepare Clean Dataset
+            ↓
+Exploratory Data Analysis
+            ↓
+Statistical Analysis
+            ↓
+Analyze Water Quality by Location
+            ↓
+Analyze Water Quality Classification
+            ↓
+Generate Visualizations
+            ↓
+Interpret Results
